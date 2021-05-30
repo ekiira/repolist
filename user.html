@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Repositorie</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/GitHub-Mark-Light-64px.png"
+      type="image/x-icon"
+    />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./styles/user.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="loader">
+      <div class="spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <section class="desktop">
+      <header class="main-header">
+        <nav class="idea">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="/" class="header">
+                <img
+                  src="./assets/GitHub-Mark-Light-64px.png"
+                  class="github"
+                  alt="github-logo"
+                />
+              </a>
+              <ul class="list">
+                <li class="input">
+                  <input placeholder="Search or jump to..." class="nav-input" />
+                  <img
+                    src="https://github.githubassets.com/images/search-key-slash.svg"
+                    class="nav-input-icon"
+                    alt="search-input-icon"
+                  />
+                </li>
+                <li><a href="#" class="">Pull requests</a></li>
+                <li><a href="#" class="">Issues</a></li>
+                <li><a href="#" class="">Marketplace</a></li>
+                <li><a href="#" class="">Explore</a></li>
+              </ul>
+              <ul class="list-two list-icons">
+                <li class="notification">
+                  <img
+                    src="./assets/notification.svg"
+                    class="list-icon"
+                    alt="notification-icon"
+                  />
+                  <span class="notification-icon"></span>
+                </li>
+                <li class="plus">
+                  <img
+                    src="./assets/plus.svg"
+                    class="list-icon"
+                    alt="plus-icon"
+                  />
+                  <span class="caret-wrapper">
+                    <span class="caret caret-bg"></span>
+                  </span>
+                </li>
+                <li class="avatar">
+                  <img src="" class="list-avatar av" alt="user-avatar" />
+                  <span class="caret-wrapper-avatar">
+                    <span class="caret caret-bg"></span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div></div>
+          </div>
+        </nav>
+      </header>
+
+      <div id="tab">
+        <div class="tab-wrapper">
+          <div class="wrapper-row">
+            <div class="bio-col"></div>
+            <div class="repo-col">
+              <div class="tab">
+                <ul class="tab-lists">
+                  <li class="tab-list">
+                    <img
+                      src="./assets/overview-icon.svg"
+                      class="tab-icon"
+                      alt="overview-icon"
+                    />
+                    Overview
+                  </li>
+                  <li class="tab-list selected">
+                    <img
+                      src="./assets/repo-icon.svg"
+                      class="tab-icon"
+                      alt="repo-icon"
+                    />
+
+                    Repositories
+                    <span class="repo-count"> </span>
+                  </li>
+                  <li class="tab-list">
+                    <img
+                      src="./assets/projects.svg"
+                      class="tab-icon"
+                      alt="project-icon"
+                    />
+
+                    Projects
+                  </li>
+                  <li class="tab-list">
+                    <img
+                      src="./assets/packages.svg"
+                      class="tab-icon"
+                      alt="package-icon"
+                    />
+
+                    Packages
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <div class="wrapper-row">
+            <div class="bio-col">
+              <div class="bi">
+                <div>
+                  <div class="bio-image">
+                    <img src="" alt="user avatar" class="bio-avatar av" />
+                    <div class="bio-smiley-wrapper">
+                      <img
+                        src="./assets/smiley.svg"
+                        alt="smiley"
+                        class="bio-smiley"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <p class="bio-name name"></p>
+                  <p class="bio-username user-name"></p>
+                  <p class="bio-dev dev"></p>
+                </div>
+              </div>
+            </div>
+            <div class="repo-col">
+              <div class="search-wrapper">
+                <div class="searchC">
+                  <input placeholder="Find a repository..." class="search" />
+                </div>
+              </div>
+
+              <div class="repo-lists"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- mobile -->
+    <section class="mobile">
+      <header class="mobile-header">
+        <nav class="idea">
+          <div class="container">
+            <div class="nav-wrapper-mob">
+              <div>
+                <button class="menu-btn">
+                  <img
+                    src="./assets/menu.svg"
+                    class="menu"
+                    alt="hamburger-icon"
+                  />
+                </button>
+              </div>
+              <div>
+                <a href="#" class="header">
+                  <img
+                    src="./assets/GitHub-Mark-Light-64px.png"
+                    class="github"
+                    alt="github-logo"
+                  />
+                </a>
+              </div>
+              <div>
+                <div class="notification">
+                  <img
+                    src="./assets/notification.svg"
+                    class="list-icon"
+                    alt="notification-icon"
+                  />
+                  <span class="notification-icon"></span>
+                </div>
+              </div>
+            </div>
+            <ul class="menu-lists">
+              <li class="input menu-list">
+                <input placeholder="Search" class="nav-input" />
+              </li>
+              <li class="menu-list">Dashboard</li>
+              <li class="menu-list">Pull requests</li>
+              <li class="menu-list">Issues</li>
+              <li class="menu-list">Marketplace</li>
+              <li class="menu-list">Explore</li>
+              <li class="menu-list">
+                <img src="" class="list-avatar av" alt="user-avatar" />
+                <span class="user-name"> </span>
+              </li>
+              <li class="menu-list">
+                <img
+                  src="./assets/signout.svg"
+                  class="signout-icon"
+                  alt="signout-icon"
+                />
+                Sign out
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div class="wrapper">
+        <div class="bio-mob">
+          <div class="bio-mob-basic">
+            <img class="bio-avatar-mob av" src="" alt="user-avatar" />
+
+            <p>
+              <span class="bio-name name"></span>
+              <br />
+              <span class="bio-username user-name"></span>
+            </p>
+          </div>
+          <div>
+            <p class="bio-dev-mob dev"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-wrapper-mob">
+        <div class="">
+          <div class="tab">
+            <ul class="tab-lists">
+              <li class="tab-list">Overview</li>
+              <li class="tab-list selected">
+                Repositories
+                <span class="repo-count"> </span>
+              </li>
+              <li class="tab-list">Projects</li>
+              <li class="tab-list">Packages</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="search-wrapper">
+          <div class="searchC">
+            <input placeholder="Find a repository..." class="search" />
+          </div>
+        </div>
+      </div>
+      <div class="repo-lists-mob"></div>
+    </section>
+
+    <script src="./config.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
