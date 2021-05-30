@@ -78,13 +78,13 @@ const getUserQuery = (keyword) =>
         } 
      } }`;
 
-window?.addEventListener("load", async () => {
+window.addEventListener("load", async () => {
   const response = await fetch("https://api.github.com/graphql", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       Accept: "application/json",
-      Authorization: `bearer ${PROCESS.ENV.PERSONALTOKEN}`,
+      Authorization: `bearer ${PERSONALTOKEN}`,
     },
     body: JSON.stringify({ query: getUserQuery(username) }),
   });
