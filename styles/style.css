@@ -35,9 +35,9 @@ img {
 .head {
   margin-top: 40px;
   padding-top: 40px;
+  font-weight: 100;
   font-size: 30px;
   color: var(--darkblue);
-  font-weight: 500;
   text-align: center;
 }
 
@@ -49,6 +49,7 @@ img {
 .search-input {
   height: 40px;
   width: 300px;
+  font-weight: 400;
   font-size: 18px;
   padding: 10px 0 10px 10px;
   border-radius: 8px;
@@ -72,6 +73,11 @@ img {
   border-radius: 8px;
   font-size: 18px;
   border: none;
+  transition: 0.5s all ease;
+}
+
+.search-button:hover {
+  opacity: 0.8;
 }
 
 .search-button:focus {
@@ -86,20 +92,27 @@ img {
 }
 
 .error p {
-  font-size: 50px;
+  font-size: 30px;
+  font-weight: 100;
 }
 
 .error button {
   background-color: #238636;
   color: white;
   height: 50px;
+  font-weight: 300;
   width: 300px;
   border-radius: 8px;
   font-size: 18px;
-  border: none
+  border: none;
+  transition: 0.5s all ease;
 }
 
 .error button a {
   color: white;
   text-decoration: none;
+}
+
+.error button a {
+  opacity: 0.8;
 }
