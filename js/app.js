@@ -47,7 +47,7 @@ function convertDate(date) {
 
   return `${arr2[2]} ${month}`;
 }
-////////
+// end of date conversion
 
 const username = localStorage.getItem("user");
 
