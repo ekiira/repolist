@@ -84,6 +84,14 @@ img {
   outline: none;
 }
 
+.message {
+  color: red;
+  font-weight: 300;
+  font-size: 14px;
+  /* margin-top: 30px; */
+  margin-bottom: 0;
+}
+
 .error {
   margin-top: 40px;
   padding-top: 40px;
