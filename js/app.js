@@ -84,7 +84,7 @@ window.addEventListener("load", async () => {
     headers: {
       "Content-Type": "application/json",
       Accept: "application/json",
-      Authorization: `bearer ${PERSONALTOKEN}`,
+      Authorization: `bearer ${PERSONAL_TOKEN}`,
     },
     body: JSON.stringify({ query: getUserQuery(username) }),
   });

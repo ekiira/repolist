@@ -67,10 +67,11 @@ img {
   margin-top: 20px;
   height: 50px;
   width: 100%;
-  background-color: var(--darkBlue);
+  background-color: #238636;
   color: white;
   border-radius: 8px;
   font-size: 18px;
+  border: none;
 }
 
 .search-button:focus {
@@ -89,12 +90,13 @@ img {
 }
 
 .error button {
-  background-color: var(--darkBlue);
+  background-color: #238636;
   color: white;
   height: 50px;
   width: 300px;
   border-radius: 8px;
   font-size: 18px;
+  border: none
 }
 
 .error button a {
